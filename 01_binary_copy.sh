@@ -1,6 +1,6 @@
 #!/b    in/sh
 
-cd      ./android
+cd      ./virustotal
 cp      0063546ac8fed1c45cf92e7d3d5e5cf8bf6cc138a6179bcbe891a920e3f49e76                    ../malware
 cp      0f9b5da88755de1b5e9cb4894c5c0b15401cc11f8e38c9429c00e30a4ae832cf                    ../malware
 cp      11434e29e6ef4b9f5950cf0f6cdaa5e7b1a78c3d2877008caaf5065f831f66a3                    ../malware

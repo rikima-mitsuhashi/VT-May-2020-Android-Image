@@ -1,6 +1,6 @@
 #!/bin/sh
 
-mkdir android dex malware image dataset
+mkdir virustotal dex malware malware_image dataset
 cd dataset
 mkdir  01 02 03
 cd ..
