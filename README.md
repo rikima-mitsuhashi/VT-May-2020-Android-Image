@@ -60,10 +60,10 @@ sudo apt-get install pnmtopng
 
 ### 6. Check the results
 ```
-tar zcvf dataset.tar.gz ./dataset
+tar zcvf VirusTotal-May-2020-Android-IMG.tar.gz ./dataset
 ```
 ```
-sha256sum ./dataset.tar.gz
+sha256sum ./VirusTotal-May-2020-Android-IMG.tar.gz
 ```
 -> 3c619b492a1e9ad59547d8b17d5448c791cee1372771ea4198cc58b0a0037fa4
 ```
