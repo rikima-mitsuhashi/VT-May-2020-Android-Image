@@ -70,7 +70,6 @@ sha256sum ./VirusTotal-May-2020-Android-Image.tar.gz
 ```
 cd ./dataset
 ```
-
 ```
 eog ./01/0f9b5da88755de1b5e9cb4894c5c0b15401cc11f8e38c9429c00e30a4ae832cf.dex.png
 ```
