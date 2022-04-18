@@ -1,4 +1,4 @@
-#!/b    in/sh
+#!/bin/sh
 
 cd      ./virustotal
 cp      0063546ac8fed1c45cf92e7d3d5e5cf8bf6cc138a6179bcbe891a920e3f49e76                    ../malware
