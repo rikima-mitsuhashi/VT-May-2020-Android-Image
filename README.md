@@ -2,7 +2,7 @@
 
 * To enable malware researchers to compare different classification approaches, we disclose how to create our dataset.
 
-* This dataset contains 4,663 malware images from 20 different malware families. The original malware binary programs are included in the Drebin dataset. 
+* This dataset contains 164 malware images from 3 different malware families. The original malware binary programs are included in the Drebin dataset. 
 
 * When your papers use the dataset or script-tools for the dataset, please cite the following paper.
 
@@ -11,17 +11,18 @@
 *2022 IEEE 46rd Annual Computer Software and Applications Conference (COMPSAC), 2022.*
 
 # How to create the dataset
-### 1. Apply for downloading the Drebin dataset
+### 1. Apply for access to the VirusTotal Malware Sample Folder
 
-* https://www.sec.cs.tu-bs.de/~danarp/drebin/
+* https://www.virustotal.com/gui/home/upload
+* Contact Us -> I have a commercial inquiry -> I am interested in premium services
+* There is no charge for an academic account.
 
-### 2. Download the Drebin dataset 
+### 2. Access to the VirusTotal Malware Sample Folder 
 
-* https://www.sec.cs.tu-bs.de/~danarp/drebin/download.html <br>
--> drebin-0.zip, drebin-1.zip, drebin-2.zip, drebin-3.zip drebin-4.zip,and drebin-5.zip
+* Download Android.7z from 2020-05-06 folder.
 
 ### 3. Unzip malware files
-* See the reply mail.
+* See the README of the VirusTotal Malware Sample folder.
 * Note that these are real malware.
 
 ### 4. Make directory and copy malware files
@@ -29,17 +30,15 @@
 ```
 ./00_make_directory.sh
 ```
-* Copy your unzipped malware files to "drebin" directory.
+* Copy your unzipped malware files to "virustotal" directory.
 ```
-find /media/user/usb/drebin-012345 -type f | xargs -i cp {} ./drebin
+find /media/user/usb/Android -type f | xargs -i cp {} ./virustotal
 ```
-
-
 * Check the file type. 
 ```
-file ./drebin/fff29f78324c75c8727426d77b128d3ee9df7ba6a1f0be1617be3430ed99d050
+file ./virustotal/0e4d9bc8ddea1aa097399cc55a19f16760c12122080192933ee5d2541dd02862
 ```
-  -> Java archive data (JAR)
+-> PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed
 
 ### 5. Create the dataset
 ```
