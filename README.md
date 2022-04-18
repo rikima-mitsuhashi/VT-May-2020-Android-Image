@@ -1,4 +1,4 @@
-# The Drebin-20-IMG dataset
+# The VirusTotal-May-2020-Android-IMG dataset
 
 * To enable malware researchers to compare different classification approaches, we disclose how to create our dataset.
 
