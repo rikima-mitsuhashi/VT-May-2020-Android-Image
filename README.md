@@ -36,9 +36,9 @@ find /media/user/usb/Android -type f | xargs -i cp {} ./virustotal
 ```
 * Check the file type. 
 ```
-file ./virustotal/0e4d9bc8ddea1aa097399cc55a19f16760c12122080192933ee5d2541dd02862
+file ./virustotal/0063546ac8fed1c45cf92e7d3d5e5cf8bf6cc138a6179bcbe891a920e3f49e76
 ```
--> PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed
+-> Java archive data (JAR)
 
 ### 5. Create the dataset
 ```
