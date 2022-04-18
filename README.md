@@ -66,7 +66,7 @@ zip -r -X VirusTotal-May-2020-Android-Image.zip ./dataset
 ```
 sha256sum ./VirusTotal-May-2020-Android-Image.zip
 ```
--> b558716e8eb4d74e3deb3102efcc498a1f6bbd2ee5b07d21a0a336848a2abccd
+-> bde8ff7b7b35834732dbe51230c065f109a67856f6af2f56f3ed8635b484a07c
 
 ```
 eog ./dataset/01/0f9b5da88755de1b5e9cb4894c5c0b15401cc11f8e38c9429c00e30a4ae832cf.dex.png
