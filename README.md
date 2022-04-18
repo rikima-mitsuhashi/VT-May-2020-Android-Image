@@ -2,9 +2,9 @@
 
 * To enable malware researchers to compare different classification approaches, we disclose how to create our dataset.
 
-* This dataset contains 164 malware images from 3 different malware families. The original malware binary programs are included in the Drebin dataset. 
+* This dataset contains 164 malware images from 3 different malware families. The original malware binary programs are included in the VirusTotal malwere sample folder.
 
-* When your papers use the dataset or script-tools for the dataset, please cite the following paper.
+* If your papers use the dataset or the script-tools for the dataset, please cite the following paper.
 
 * Rikima Mitsuhashi and Takahiro Shinagawa, <br>
 "Exploring Optimal Deep Learning Models for Image-based Malware Variant Classification,"<br>
@@ -31,6 +31,7 @@
 ./00_make_directory.sh
 ```
 * Copy your unzipped malware files to "virustotal" directory.
+* "/media/user/usb/Android" should be changed to suit your environment.
 ```
 find /media/user/usb/Android -type f | xargs -i cp {} ./virustotal
 ```
@@ -60,18 +61,22 @@ sudo apt-get install pnmtopng
 
 ### 6. Check the results
 ```
-tar zcvf VirusTotal-May-2020-Android-IMG.tar.gz ./dataset
+tar zcvf VirusTotal-May-2020-Android-Image.tar.gz ./dataset
 ```
 ```
-sha256sum ./VirusTotal-May-2020-Android-IMG.tar.gz
+sha256sum ./VirusTotal-May-2020-Android-Image.tar.gz
 ```
 -> 2888ce0c40732259dcd6a5ec8f999f000f2a7c169649ed6ada11920aee70e27e
 ```
 cd ./dataset
 ```
 
-* 01/0f9b5da88755de1b5e9cb4894c5c0b15401cc11f8e38c9429c00e30a4ae832cf.dex.png
+```
+eog ./01/0f9b5da88755de1b5e9cb4894c5c0b15401cc11f8e38c9429c00e30a4ae832cf.dex.png
+```
 <img src="./sample01.png" width=10%>
 
-* 02/1fca504cef5b106951ffd3456a9c5a8a80354d8eb942aad464ed40d7d1b7e4e8.dex.png
+```
+eog ./02/1fca504cef5b106951ffd3456a9c5a8a80354d8eb942aad464ed40d7d1b7e4e8.dex.png
+```
 <img src="./sample02.png" width=10%>
