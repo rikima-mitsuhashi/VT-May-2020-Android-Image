@@ -65,7 +65,7 @@ tar zcvf VirusTotal-May-2020-Android-IMG.tar.gz ./dataset
 ```
 sha256sum ./VirusTotal-May-2020-Android-IMG.tar.gz
 ```
--> 3c619b492a1e9ad59547d8b17d5448c791cee1372771ea4198cc58b0a0037fa4
+-> 2888ce0c40732259dcd6a5ec8f999f000f2a7c169649ed6ada11920aee70e27e
 ```
 cd ./dataset
 ```
