@@ -67,18 +67,16 @@ tar zcvf VirusTotal-May-2020-Android-Image.tar.gz ./dataset
 sha256sum ./VirusTotal-May-2020-Android-Image.tar.gz
 ```
 -> 2888ce0c40732259dcd6a5ec8f999f000f2a7c169649ed6ada11920aee70e27e
-```
-cd ./dataset
-```
-```
-eog ./01/0f9b5da88755de1b5e9cb4894c5c0b15401cc11f8e38c9429c00e30a4ae832cf.dex.png
-```
-<img src="./sample01.png" width=4%>
 
 ```
-eog ./02/1fca504cef5b106951ffd3456a9c5a8a80354d8eb942aad464ed40d7d1b7e4e8.dex.png
+eog ./dataset/01/0f9b5da88755de1b5e9cb4894c5c0b15401cc11f8e38c9429c00e30a4ae832cf.dex.png
 ```
-<img src="./sample02.png" width=10%>
+<img src="./sample01.jpg" width=4%>
+
+```
+eog ./dataset/02/1fca504cef5b106951ffd3456a9c5a8a80354d8eb942aad464ed40d7d1b7e4e8.dex.png
+```
+<img src="./sample02.jpg" width=10%>
 
 # References
 * The VirusTotal-May-2020-Windows-Image dataset
