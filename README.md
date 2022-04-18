@@ -1,4 +1,4 @@
-# The VirusTotal-May-2020-Android-IMG dataset
+# The VirusTotal-May-2020-Android-Image dataset
 
 * To enable malware researchers to compare different classification approaches, we disclose how to create our dataset.
 
