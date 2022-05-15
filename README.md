@@ -79,7 +79,7 @@ eog ./dataset/02/1fca504cef5b106951ffd3456a9c5a8a80354d8eb942aad464ed40d7d1b7e4e
 <img src="./sample02.jpg" width=10%>
 
 # References
-* The VirusTotal-May-2020-Windows-Image dataset
-* https://github.com/rikima-mitsuhashi/VirusTotal-May-2020-Windows-Image
-* The Drebin-20-DEX-Image datase
-* https://github.com/rikima-mitsuhashi/Drebin-20-DEX-Image
+* The VT-May-2020-Windows-Image dataset
+* https://github.com/rikima-mitsuhashi/VT-May-2020-Windows-Image
+* The DR-20-DEX-Image datase
+* https://github.com/rikima-mitsuhashi/DR-20-DEX-Image
