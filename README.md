@@ -21,7 +21,7 @@
 
 * Download Android.7z from 2020-05-06 folder.
 
-### 3. Unzip the file
+### 3. Unzip the downloaded file
 * A password is written in the README of the VirusTotal Malware Sample folder.
 * Note that unzipped files are real malware.
 
