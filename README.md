@@ -23,7 +23,7 @@
 
 ### 3. Unzip the downloaded file
 * A password is written in the README of the VirusTotal Malware Sample folder.
-* Note that unzipped files are real malware.
+* Note that the unzipped files are real malware.
 
 ### 4. Make directory and copy malware files
 * The following steps are confirmed in Ubuntu 20.04 LTS.
