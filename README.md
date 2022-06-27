@@ -6,7 +6,7 @@
 
 * If your papers use the dataset or the script-tools for the dataset, please cite the following paper.
 
-<BR><BR> Rikima Mitsuhashi and Takahiro Shinagawa, <br>
+* Rikima Mitsuhashi and Takahiro Shinagawa, <br>
 "Exploring Optimal Deep Learning Models for Image-based Malware Variant Classification,"<br>
 *2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC), 2022.*
 
